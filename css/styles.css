@@ -1,0 +1,221 @@
+body {
+	background-color: #eeedeb !important;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+	-o-background-size: cover;
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	height: auto;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact {
+	display: inline-block;
+	margin-top: 13%;
+	padding-bottom: 4%;
+}
+
+.contact img {
+	padding: 9px 0;
+}
+
+.contact a img:hover {
+	transform: scale(1.05);
+}
+
+img.logo {
+	width: 380px;
+	margin-top: 6%;
+}
+
+img.getinto {
+	width: 364px;
+}
+
+img.email {
+	width: 390px;
+}
+
+
+/*Media Queries*/
+
+
+/* Portrait Ipad */
+@media only screen 
+	and (min-width: 737px) 
+	and (max-width: 1023px) 
+	and (orientation: portrait) 
+	and (-webkit-min-device-pixel-ratio: 2) {
+		
+		body{
+			background-image: url('../img/bgIpadport.jpg');
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+		.contact {
+			display: block;
+			margin-top: 39%;
+		}
+
+		.contact img {
+			padding: 9px 0;
+		}
+
+		img.logo {
+			width: 360px;
+			margin-top: 14%;
+			margin-left: 2%;
+		}	
+
+		img.getinto {
+			width: 259px;
+			margin-right: 3%;
+		}
+
+		img.email {
+			width: 278px;
+		}
+
+	}
+
+/* Landscape Ipad */
+@media only screen 
+	and (min-width: 1024px) 
+	and (max-width: 1199px) 
+	and (orientation: landscape) 
+	and (-webkit-min-device-pixel-ratio: 2) 
+	{
+
+		body{
+			background-image: url('../img/bgIpadland.jpg');
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+		.contact {
+			display: block;
+			margin-top: 23%;
+		}
+
+		.contact img {
+			padding: 9px 0;
+		}
+
+		img.logo {
+			width: 270px;
+			margin-top: 9%;
+		}	
+
+		img.getinto {
+			width: 259px;
+			margin-right: 3%;
+		}
+
+		img.email {
+			width: 278px;
+		}
+
+}
+
+
+/*Laptops and mac pcs*/
+
+@media screen
+	and (min-width: 1200px)
+	and (max-width: 1920px) {
+		
+		body {
+			background-image: url('../img/bg.jpg');
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+
+		.contact {
+			margin-top: 16%;
+		}
+	
+	}
+
+/* Mobile */
+
+@media screen
+	and (min-width: 320px)
+	and (max-width: 736px) {
+
+		.wrapper {
+			width: 100%;
+			margin: 0 auto;
+			padding: 0;
+			text-align: center;
+		}
+
+		body{
+			background-image: url('../img/bgmobile.jpg');
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+
+		.contact {
+			margin-top: 39%;
+		}
+
+		img.logo {
+			width: 224px;
+			margin-top: 26%;
+		}	
+
+		img.getinto {
+			width: 248px;
+			margin-right: 3%;
+			padding: 0; 
+		}
+
+		img.email {
+			width: 266px;
+		}
+	}
+
+@media screen
+	and (min-width: 813px)
+	and (max-width: 1023px) {
+		body{
+			background-image: url('../img/bgIpadland.jpg');
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
